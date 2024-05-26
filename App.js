@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        My name is <Text style={styles.bold}>YourName</Text>
+        My name is <Text style={styles.bold}>Jenbo Cosmos Gbalju</Text>
       </Text>
       <StatusBar style="auto" />
     </View>
@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 24,
+    textAlign: 'center'
 
   },
   bold: {
